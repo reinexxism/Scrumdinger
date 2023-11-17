@@ -32,6 +32,6 @@ enum Theme: String {
         }
     }
     var mainColor: Color {
-        Color(.yellow)
+        Color(rawValue)
     }
 }
